@@ -74,17 +74,17 @@ article {
     color: #fff;
 }
 
-.hero article img {
+.hero article {
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    left: 20px;
     background-color: white;
     padding: 10px;
     width: 60%;
+
 }
 
 .hero article img {
     float: right;
     width: 125px;
-    margin-left: 10px;
 }
