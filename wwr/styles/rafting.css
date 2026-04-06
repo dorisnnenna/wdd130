@@ -42,14 +42,14 @@ header img {
     width: 100px;
 }
 
-footer {
-    background-color: var(--accent2-color);
-}
-
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
 }
 
 nav,
@@ -142,7 +142,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #264653;
+    background-color: var(--accent2-color);
     color: white;
     padding: 1rem;
 }
