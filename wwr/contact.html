@@ -7,6 +7,7 @@
     <title>Contact Us | Whitewater Rafting </title>
     <meta name="description"
       content="Contact Whitewater rafting for inquiries, reservations, and feedback.Reach us easily through our contact form.">
+    <meta name="author" content="Doris Nnenna">
     <link rel="stylesheet" href="styles/rafting.css">
 
 </head>
@@ -47,17 +48,17 @@
             <h2>Meet Our Team</h2>
 
             <figure>
-                <img src="images/profile-pict1.jpg" alt="Manager">
+                <img src="images/employeeprofile-picture1.jpg" alt="Manager">
                 <figcaption>Doris Nnenna - Manager</figcaption>
             </figure>
 
             <figure>
-                <img src="images/profile-pict2.jpg" alt="Guide">
+                <img src="images/employeeprofile-picture2.jpg" alt="Guide">
                 <figcaption>Jane Smith - Lead Guide</figcaption>
             </figure>
 
             <figure>
-                <img src="images/profile-pict3.jpg" alt="Support Staff">
+                <img src="images/employeeprofile-picture3.jpg" alt="Support Staff">
                 <figcaption>Amaka Brown - Support Staff</figcaption>
             </figure>
         </section>
@@ -66,43 +67,29 @@
             <h2>Send Us a Message</h2>
 
             <form>
-                <!-- Name -->
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
-                <!-- Email -->
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <!-- Purpose -->
                 <p>Purpose of Message:</p>
 
-                <label>
-                    <input type="radio" name="purpose" value="general" required>
-                    General Inquiry
-                </label>
+                <input type="radio" id="general" name="purpose" value="general">
+                <label for="general">General Inquiry</label>
 
-                <label>
-                    <input type="radio" name="purpose" value="reservation">
-                    Reservation Question
-                </label>
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <label for="reservation">Reservation Question</label>
 
-                <label>
-                    <input type="radio" name="purpose" value="suggestion">
-                    Website Suggestion
-                </label>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Website Suggestion</label>
 
-                <!-- Message -->
                 <label for="message">Message:</label>
                 <textarea id="message" name="message"></textarea>
 
-                <!-- Checkbox -->
-                <label>
-                    <input type="checkbox" name="subscribe">
-                    Please subscribe me to the monthly newsletter
-                </label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
 
-                <!-- Submit -->
                 <button type="submit">Send Message</button>
             </form>
         </section>
