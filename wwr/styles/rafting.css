@@ -152,3 +152,34 @@ footer {
 .socialmedia img {
     width: 30px;
 }
+
+.contact-info,
+.map,
+.employees,
+.contact-form {
+    margin: 20px;
+}
+
+.employees {
+    display: flex;
+    gap: 20px;
+}
+
+.employees img {
+    width: 150px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #055a05;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
