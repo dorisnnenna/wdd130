@@ -184,3 +184,68 @@ button {
     border: none;
     cursor: pointer;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f4a261;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-items img {
+    width: 100%;
+}
+
+/* TRIP GRID */
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.trip img {
+    width: 100%;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e9c46a;
+}
